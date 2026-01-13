@@ -1,0 +1,13 @@
+# Bỏ qua toàn bộ thư mục raw_data
+data/raw_data/
+
+# Hoặc chỉ bỏ qua các file csv trong đó
+data/raw_data/*.csv
+
+# Bỏ qua các file hệ thống/cache
+__pycache__/
+.DS_Store
+.ipynb_checkpoints
+
+data/processed_data
+
